@@ -1,0 +1,26 @@
+.header-button{
+    width:100px; 
+    float: right; 
+    margin: 75px 5px; 
+    padding: 3px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px black solid; 
+    background-color: #a1a1a18a;
+    border-radius: 10px;
+}
+header{
+    width: 650px; 
+    margin: 50px auto; 
+}
+main{
+    width: 750px; 
+    margin: 10px auto; 
+    border-top: 3px #61249d solid;
+}
+h1, h2{
+    text-align: center;
+}
+body{
+    background-color: rgba(204, 204, 204, 0.568);
+}
