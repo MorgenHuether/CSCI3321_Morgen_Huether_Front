@@ -24,6 +24,7 @@ function place(pos){
         //      same execution
         if(player == 1){
             square.innerHTML = "X";
+            document.getElementById("results").innerHTML = "Place an O";
             turnNum ++;
             checkWin();
 
@@ -32,6 +33,7 @@ function place(pos){
         }
         else{
             square.innerHTML = "O";
+            document.getElementById("results").innerHTML = "Place an X";
             turnNum ++;
             checkWin();
 
