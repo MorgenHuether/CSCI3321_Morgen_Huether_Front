@@ -1,0 +1,89 @@
+#ui{
+    margin: auto;
+    width: 320px;
+    height: 320px;
+    padding: 15px;
+    display: grid;
+    grid-template-areas: 
+        'one two three'
+        'four five six'
+        'seven eight nine';
+    grid-gap: 10px;
+    
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    line-height: 100px;
+    border-radius: 10px;
+}
+.box:hover{
+    cursor: pointer;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    visibility: visible;
+    font-size: 20px;
+}
+
+.banner{
+    width: 320px;
+    height: 35px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-top: none;
+}
+
+.scores{
+    width: 90px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#results{
+    width: 320px;
+    height: 50px;
+    padding: 15px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+#instructions{
+    width: 320px;
+    margin: auto;
+    font-size: 16px;
+}
+
+#one{
+    grid-area: 'one';}
+#two{
+    grid-area: 'two';}
+#three{
+    grid-area: 'three';}
+#four{
+    grid-area: 'four';}
+#five{
+    grid-area: 'five';}
+#six{
+    grid-area: 'six';}
+#seven{
+    grid-area: 'seven';}
+#eight{
+    grid-area: 'eight';}
+#nine{
+    grid-area: 'nine';}

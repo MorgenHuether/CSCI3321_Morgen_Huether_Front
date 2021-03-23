@@ -1,0 +1,52 @@
+<!--
+    Morgen Huether
+    3-22-21
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/style/tic-tac-toe.css">
+    <script src="/scripts/tic-tac-toe.js"></script>
+    
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <div id="ui">
+        <div class="box" id='one' onclick="place('one')"></div>
+        <div class="box" id='two' onclick="place('two')"></div>
+        <div class="box" id='three' onclick="place('three')"></div>
+        <div class="box" id='four' onclick="place('four')"></div>
+        <div class="box" id='five' onclick="place('five')"></div>
+        <div class="box" id='six' onclick="place('six')"></div>
+        <div class="box" id='seven' onclick="place('seven')"></div>
+        <div class="box" id='eight' onclick="place('eight')"></div>
+        <div class="box" id='nine' onclick="place('nine')"></div>
+    </div>
+
+    <div class="banner">
+        <div class="scores">
+            <p>X wins:</p>
+            <p id="xCounter">0</p>
+        </div>
+        <button id="theBigNotRedButton" onclick="theButtonWasPressed()">Start</button>
+        <div class="scores">
+            <p>O wins:</p>
+            <p id="oCounter">0</p>
+        </div>
+    </div>
+    
+    <p id="results"></p>
+    
+    <div id="instructions">
+        <p>Instructions:</p>
+        <p>Players take turns placing X's and O's on the board. The first to get three in a row (horizontal, vertical, or diagonal) wins and gets to start the next game.</p>
+    </div>    
+</body>
+</html>
